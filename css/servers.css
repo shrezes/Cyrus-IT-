@@ -1,0 +1,50 @@
+/* CSS Document */
+
+/* full width 2nd nav */	
+/* Style tab links */
+.tablink {
+  background-color:#2e7a94;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px px;
+  font-size: 13px;
+  width: 33.3%;
+	height: 50px;
+}
+
+.tablink:hover {
+  background-color: #777;
+	color: black;
+}
+
+
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color:  #578fa5;}
+#News {background-color: #7aa4b7;}
+#Contact {background-color: #9cbac8;}
+
+
+
+
+
+
+
+body{
+	background:#eee
+}
+.ratings i{
+	font-size: 16px;
+	color: red
+}
+.strike-text{color: red;text-decoration: line-through}.product-image{width: 100%}.dot{height: 7px;width: 7px;margin-left: 6px;margin-right: 6px;margin-top: 3px;background-color: blue;border-radius: 50%;display: inline-block}.spec-1{color: #938787;font-size: 15px}h5{font-weight: 400}.para{font-size: 16px}

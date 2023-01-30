@@ -1,0 +1,103 @@
+/* CSS Document */
+body {
+  background: #232321;
+}
+h1 {
+  color: #fff;
+  padding: 10px 0;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border: none;
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  }
+  a {
+    color: initial;
+    &:hover {
+      text-decoration: initial;
+    }
+  }
+  .text-muted i {
+    margin: 0 10px;
+  }
+}
+
+
+// Bootstrap resets
+.card {
+  border: none;
+}
+.card-img {
+  border-radius: 0;
+}
+
+.vgr-cards {
+  .card {
+    display: flex;
+    flex-flow: wrap;
+    flex: 100%;
+    margin-bottom: 40px;
+
+    &:nth-child(even) .card-img-body {
+      order: 2;
+    }
+
+    &:nth-child(even) .card-body {
+      padding-left: 0;
+      padding-right: 1.25rem; 
+    }
+    
+    @media (max-width: 576px) {
+      display: block;
+    }
+    
+  }
+
+  .card-img-body {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    
+    @media (max-width: 576px) {
+      width: 100%;
+      height: 200px;
+          margin-bottom: 20px;
+    }
+    
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+    @media (max-width: 1140px) {
+          margin: 0;
+    transform: none;
+    width: 100%;
+    height: auto;
+    }
+    
+  }
+
+  .card-body {
+    flex: 2;
+    padding: 0 0 0 1.25rem;
+    
+    @media (max-width: 576px) {
+      padding: 0;
+    }
+    
+  }
+}
+
+
+/*Contact us banner*/
+
+.right_conatct_social_icon{
+     background: linear-gradient(to top right, #3ba1c5 -5%, black 100%);
+}
